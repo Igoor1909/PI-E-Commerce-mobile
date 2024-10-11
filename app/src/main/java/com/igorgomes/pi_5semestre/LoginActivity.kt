@@ -52,7 +52,7 @@ class LoginActivity : AppCompatActivity() {
         loginButton.isEnabled = false
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://638a8ba8-2e76-4761-836a-37ea66c293fb-00-di276691jjx.worf.replit.dev/")
+            .baseUrl("http://192.168.0.201/apis/listagem/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
